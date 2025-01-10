@@ -25,7 +25,50 @@ header>.nav-title{
 .navBer>button{
     color: #006A50;
     font-size: 18px;
-    padding: 6px 15px;
+    padding: 8px 15px;
     border: 2px solid #006A50;
     border-radius: 8px;
+}
+
+/* this section for banner */
+
+.banner-section{
+    height: 560px;
+    max-width: 1280px;
+    background-color: #C6E4D6;
+    border-radius: 30px;
+    margin: auto;
+}
+.banner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 60px;
+}
+.banner-text{
+    position: relative;
+    max-height: 326px;
+    max-width: 420px;
+}
+.banner-bangladesh-title{
+    font-size: 18px;
+    font-weight: 400;
+    color: #0E0E0E;
+    margin-bottom: 20px;
+    filter: brightness(50%);
+}
+.banner-title{
+    color: #0E0E0E;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+/* sheared content */
+.btn-container{
+    padding: 8px 20px;
+    background-color: #006A50;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
 }

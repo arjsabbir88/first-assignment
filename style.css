@@ -72,3 +72,55 @@ header>.nav-title{
     border-radius: 8px;
     cursor: pointer;
 }
+
+/* start pillar section */
+
+.pillar-of-bangladesh{
+    max-width: 1280px;
+    height: 280px;
+    background-color: #F1F1F3;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.pillar-header{
+    color: #0E0E0E;
+    margin-bottom: 25px;
+}
+.card-container{
+    height: 244px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pillar-container{
+    max-height: 250px;
+    max-width: 290px;
+    background-color: #ffffff;
+    /* margin-right: 30px; */
+    border: none;
+    border-radius: 8px;
+}
+.card-images{
+    margin: 20px 0px;
+}
+.pillar-container-description{
+    font-weight: 300;
+    color: #0E0E0E;
+    filter: brightness(50%);
+    margin-top: 10px;
+}
+/* vision-of-future section */
+.vision-of-future{
+    height: 765px;
+    max-width: 1280px;
+    margin-top: 20px;
+}
+.vision-text-container{
+    margin: 20px;
+}
+.vision-card-container{
+    display: flex;
+}

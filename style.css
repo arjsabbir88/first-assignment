@@ -465,7 +465,7 @@ header>.nav-title span{
     border-radius: 0 5px 5px 0;
     font-weight: 600;
     letter-spacing: 0;
-    animation: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 .input-field>button:hover{
     background-color: #087e49;

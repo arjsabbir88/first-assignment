@@ -183,6 +183,7 @@ header>.nav-title span{
     background-color: #afe4cba4;
     padding: 20px;
     border-radius: 30px;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .future-card-container-2{
     height: 270px;
@@ -190,6 +191,7 @@ header>.nav-title span{
     background-color: #71d8d3;
     padding: 20px;
     border-radius: 30px;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .future-card-container-3{
     height: 270px;
@@ -197,6 +199,7 @@ header>.nav-title span{
     background-color: #f3ddab;
     padding: 20px;
     border-radius: 30px;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 .vision-card-image{
     margin-bottom: 20px;
@@ -286,6 +289,7 @@ header>.nav-title span{
 .recent-section-image>img{
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
+    box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 /* hover effect recent-section image */
 .recent-section-image>img:hover{

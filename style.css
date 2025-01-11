@@ -452,3 +452,35 @@ header>.nav-title span{
 .input-field>button:active{
     transform: scale(0.97);
 }
+.footer-container{
+    margin-top: 50px;
+    height: 226px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F1F1F3;
+}
+.footer-container>h1{
+    margin-bottom: 20px;
+    color: #087e49;
+}
+.footer-container>h1 span{
+    color: #df1212;
+}
+.footer-content{
+    width: 660px;
+}
+.footer-content>hr{
+    margin-bottom: 20px;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-content>img{
+    margin-right: 30px;
+    transition: all 0.2s ease-out;
+}
+.footer-content>img:hover{
+    transform: translateY(-10px);
+}

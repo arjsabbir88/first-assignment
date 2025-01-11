@@ -13,6 +13,11 @@ header{
 header>.nav-title{
     width: 100%;
     height: 100%;
+    color: #006A50;
+    cursor: pointer;
+}
+header>.nav-title span{
+    color: #df1212;
 }
 .navBer{
     height: 100px;
@@ -28,6 +33,11 @@ header>.nav-title{
     padding: 8px 15px;
     border: 2px solid #006A50;
     border-radius: 8px;
+    font-weight: 600;
+}
+.navBer>button:hover{
+    background-color: #087e49;
+    color: #ffffff;
 }
 
 /* this section for banner */
@@ -58,6 +68,10 @@ header>.nav-title{
     margin-bottom: 20px;
     filter: brightness(50%);
 }
+.banner-bangladesh-title span{
+    color: #ff0303;
+    font-weight: 700;
+}
 .banner-title{
     color: #0E0E0E;
     font-size: 48px;
@@ -71,6 +85,11 @@ header>.nav-title{
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: 600;
+}
+.btn-container:hover{
+    background-color: #079b76;
+    color: #0E0E0E;
 }
 .description{
     font-size: 14px;
@@ -87,6 +106,10 @@ header>.nav-title{
     border-radius: 8px;
     padding: 8px 20px;
     margin-top: 30px;
+    cursor: pointer;
+}
+.active-btn:active{
+    transform: scale(0.97);
 }
 
 /* start pillar section */
@@ -186,6 +209,20 @@ header>.nav-title{
 .btn-3{
     background-color: #FFC239;
 }
+.btn-1:hover{
+    background-color: #5a82c9;
+    color: #0E0E0E;
+}
+.btn-2:hover{
+    background-color: #067242;
+    color: #0E0E0E;
+
+}
+.btn-3:hover{
+    background-color: #b38826;
+    color: #0E0E0E;
+}
+
 /* this section is description of yunus */
 .yunus-description{
     margin-top: 70px;
@@ -232,6 +269,10 @@ header>.nav-title{
 }
 .recent-section-image>img{
     border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.recent-section-image>img:hover{
+    transform: translateY(-10px);
 }
 .recent-section-description{
     height: 290px;
@@ -300,9 +341,17 @@ header>.nav-title{
     border-radius: 15px;
     font-size: 28px;
     font-weight: 600;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+.amount-card:hover{
+    background-color: #aef3d3;
 }
 .select-card{
     background-color: #aef3d3;
+}
+.select-card:hover{
+    background-color: #F1F1F3;
 }
 .donate-section-container .input-section{
     display: flex;
@@ -318,9 +367,88 @@ header>.nav-title{
     border: none;
     border-radius: 8px;
     margin-bottom: 30px;
+    outline: none;
+    border: 2px solid #ccc;
+}
+.other-amount-input-filed:focus{
+    border-color: #006A50;
 }
 .other-amount-input-filed::placeholder{
     text-align: center;
     size: 14px;
     font-style: italic;
+}
+/* section of newsletter */
+.section-of-newsletter{
+    margin-top: 50px;
+}
+.section-of-newsletter-container{
+    max-width: 1280px;
+    height: 395px;
+    background-color: #C6E4D6;
+    margin: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter-containers-content{
+    height: 235px;
+    width: 750px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.newsletter-header{
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.newsletter-containers-content .description{
+    max-width: 622px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.input-field{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    font-size: 18px;
+    color: #0E0E0E;
+    margin-bottom: 15px;
+}
+.newsleter-input{
+    width: 80%;
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    border: 2px solid #ccc;
+    /* margin-bottom: 20px; */
+}
+.newsleter-input:focus{
+    border-color: #09A15C;
+}
+.input-field>button{
+    font-size: 18px;
+    background-color: #09A15C;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    font-weight: 600;
+    letter-spacing: 0;
+    animation: all 0.2s ease-in-out;
+}
+.input-field>button:hover{
+    background-color: #087e49;
+    color: #ffffff;
+}
+.input-field>button:active{
+    transform: scale(0.97);
 }

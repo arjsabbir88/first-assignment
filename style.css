@@ -34,6 +34,7 @@ header>.nav-title span{
     border: 2px solid #006A50;
     border-radius: 8px;
     font-weight: 600;
+    transition: 0.2s ease-out;
 }
 .navBer>button:hover{
     background-color: #087e49;
@@ -86,10 +87,13 @@ header>.nav-title span{
     border-radius: 8px;
     cursor: pointer;
     font-weight: 600;
+    transition: all 0.2s ease;
+    border: 1px solid #006A50;
 }
 .btn-container:hover{
-    background-color: #079b76;
+    background-color: #ffffff;
     color: #0E0E0E;
+    border: 1px solid #ccc;
 }
 .description{
     font-size: 14px;
@@ -102,16 +106,17 @@ header>.nav-title span{
     font-size: 18px;
     font-weight: 600px;
     color: #ffffff;
-    border: none;
     border-radius: 8px;
     padding: 8px 20px;
     margin-top: 30px;
     cursor: pointer;
+    transition: all 0.2s ease;
+    letter-spacing: 0;
 }
 .active-btn:active{
     transform: scale(0.97);
 }
-
+/* end sheared content */
 /* start pillar section */
 
 .pillar-of-bangladesh{
@@ -153,7 +158,7 @@ header>.nav-title span{
 }
 /* vision-of-future section */
 .vision-of-future{
-    height: 765px;
+    height: 510px;
     max-width: 1280px;
     /* background-color: aquamarine; */
     margin: auto;
@@ -175,21 +180,21 @@ header>.nav-title span{
 .future-card-container-1{
     height: 270px;
     max-width: 320px;
-    background-color: #c6e4d6a4;
+    background-color: #afe4cba4;
     padding: 20px;
     border-radius: 30px;
 }
 .future-card-container-2{
     height: 270px;
     max-width: 320px;
-    background-color: #C6E4D6;
+    background-color: #71d8d3;
     padding: 20px;
     border-radius: 30px;
 }
 .future-card-container-3{
     height: 270px;
     max-width: 320px;
-    background-color: #F7EBCF;
+    background-color: #f3ddab;
     padding: 20px;
     border-radius: 30px;
 }
@@ -202,49 +207,60 @@ header>.nav-title span{
 
 .btn-1{
     background-color: #5490F5;
+    border: 1px solid #5490F5;
 }
 .btn-2{
     background-color: #09A15C;
+    border: 1px solid #09A15C;
 }
 .btn-3{
-    background-color: #FFC239;
+    background-color: #c09530;
+    border: 1px solid #c09530;
 }
+/* hover effect vision of future button */
 .btn-1:hover{
-    background-color: #5a82c9;
+    background-color: #ffffff;
     color: #0E0E0E;
+    border: 1px solid #ccc;
 }
 .btn-2:hover{
-    background-color: #067242;
+    background-color: #ffffff;
     color: #0E0E0E;
-
+    border: 1px solid #ccc;
 }
 .btn-3:hover{
-    background-color: #b38826;
+    background-color: #ffffff;
     color: #0E0E0E;
+    border: 1px solid #ccc;
 }
 
 /* this section is description of yunus */
 .yunus-description{
-    margin-top: 70px;
-    max-width: 1200px;
+    height: 180px;
+    max-width: 1250px;
+    margin: auto;
+    padding: 30px 10px;
+    background-color: #F1F1F3;
+    border-radius: 15px;
+    border: 1px solid #ccc;
 }
-.description-container{
+.yunus-description>.bacground-image{
+    height: 100px;
+    width: 100px;
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat;
-    margin: auto;
+    position: absolute;
 }
-.description-container>.description{
+.yunus-description>.description{
     font-size: 18px;
-    
-}
-.name{
-    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 25px;
 }
 /* this is recent-section */
 .recent-news{
-    margin-top: 20px;
     max-width: 1280px;
-    margin: auto;
+    margin: 30px auto;
     border-radius: 10px;
 }
 .recent-title{
@@ -269,10 +285,12 @@ header>.nav-title span{
 }
 .recent-section-image>img{
     border-radius: 10px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
+/* hover effect recent-section image */
 .recent-section-image>img:hover{
     transform: translateY(-10px);
+    filter: brightness(60%);
 }
 .recent-section-description{
     height: 290px;
@@ -343,6 +361,7 @@ header>.nav-title span{
     font-weight: 600;
     border: 2px solid #ccc;
     cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 .amount-card:hover{
     background-color: #aef3d3;
@@ -479,8 +498,9 @@ header>.nav-title span{
 }
 .footer-content>img{
     margin-right: 30px;
+    cursor: pointer;
     transition: all 0.2s ease-out;
 }
 .footer-content>img:hover{
-    transform: translateY(-10px);
+    transform: translateY(-5px);
 }

@@ -65,12 +65,28 @@ header>.nav-title{
 }
 /* sheared content */
 .btn-container{
-    padding: 8px 20px;
+    padding: 10px 20px;
     background-color: #006A50;
     color: #ffffff;
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+.description{
+    font-size: 14px;
+    font-weight: 300;
+    color: #424242;
+    margin-bottom: 10px;
+}
+
+.card-btn{
+    font-size: 18px;
+    font-weight: 600px;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    margin-top: 30px;
 }
 
 /* start pillar section */
@@ -116,11 +132,129 @@ header>.nav-title{
 .vision-of-future{
     height: 765px;
     max-width: 1280px;
-    margin-top: 20px;
+    /* background-color: aquamarine; */
+    margin: auto;
+    margin-top: 40px;
 }
-.vision-text-container{
-    margin: 20px;
+
+.vision-header{
+    font-weight: 700;
+    font-size: 43px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
 }
 .vision-card-container{
+    margin-top: 30px;
     display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.future-card-container-1{
+    height: 270px;
+    max-width: 320px;
+    background-color: #c6e4d6a4;
+    padding: 20px;
+    border-radius: 30px;
+}
+.future-card-container-2{
+    height: 270px;
+    max-width: 320px;
+    background-color: #C6E4D6;
+    padding: 20px;
+    border-radius: 30px;
+}
+.future-card-container-3{
+    height: 270px;
+    max-width: 320px;
+    background-color: #F7EBCF;
+    padding: 20px;
+    border-radius: 30px;
+}
+.vision-card-image{
+    margin-bottom: 20px;
+}
+.vision-card-header{
+    margin-bottom: 20px;
+}
+
+.btn-1{
+    background-color: #5490F5;
+}
+.btn-2{
+    background-color: #09A15C;
+}
+.btn-3{
+    background-color: #FFC239;
+}
+/* this section is description of yunus */
+.yunus-description{
+    margin-top: 70px;
+    max-width: 1200px;
+}
+.description-container{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.description-container>.description{
+    font-size: 18px;
+    
+}
+.name{
+    margin-top: 20px;
+}
+/* this is recent-section */
+.recent-news{
+    margin-top: 20px;
+    max-width: 1280px;
+    margin: auto;
+    border-radius: 10px;
+}
+.recent-title{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.recent-news-description{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.recent-news-card-section{
+    height: 402px;
+    max-width: 1280px;
+    background-color: #F1F1F3;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.recent-section-image>img{
+    border-radius: 10px;
+}
+.recent-section-description{
+    height: 290px;
+    max-width: 744px;
+}
+.recent-description-header{
+    color: #0E0E0E;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.al-jazeera-img{
+    max-width: 130px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.launching-time{
+    margin-bottom: 15px;
+}
+.recent-section-description>.description{
+    font-size: 18px;
+    font-weight: 300;
+}
+.recent-news-description>.btn-container{
+    margin-top: 15px;
 }

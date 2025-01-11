@@ -258,3 +258,69 @@ header>.nav-title{
 .recent-news-description>.btn-container{
     margin-top: 15px;
 }
+/* this section for donate */
+.section-of-donate{
+    height: 465px;
+    max-width: 1280px;
+    background-color: #F7EBCF;
+    margin: auto;
+    border-radius: 15px;
+}
+.donate-section-container{
+    padding: 0 120px;
+    text-align: center;
+    margin-top: 50px;
+}
+.donate-container-title{
+    font-size: 38px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.donate-section-container>.description{
+    max-width: 1071px;
+    margin-bottom: 30px;
+}
+.card-amount-container{
+    height: 90px;
+    max-width: 1071px;
+    display: flex;
+    /* background-color: #F5F5F5; */
+    gap: 24px;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.amount-card{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 15px;
+    background-color: #F1F1F3;
+    border-radius: 15px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.select-card{
+    background-color: #aef3d3;
+}
+.donate-section-container .input-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.other-amount-input-filed{
+    width: 90%;
+    height: 45px;
+    padding: 5px 30px;
+    font-size: 28px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.other-amount-input-filed::placeholder{
+    text-align: center;
+    size: 14px;
+    font-style: italic;
+}
